@@ -297,7 +297,7 @@
 
 							// Location Map
 							if(data.location.lat && data.location.lon) {
-								$('#feed-' + data.id + ' .map .value').html('<a href="http://maps.google.com/maps?z=14&t=m&q=loc:' + data.location.lat + '+' + data.location.lon + '">View on Google Maps &raquo;</a>');
+								$('#feed-' + data.id + ' .map .value').html('<a href="http://www.openstreetmap.org/#map=16/' + data.location.lat + '/' + data.location.lon + '">Смотреть на Openstreetmap &raquo;</a>');
 							} else {
 								$('#feed-' + data.id + ' .map').addClass('hidden');
 							}
