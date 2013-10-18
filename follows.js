@@ -389,10 +389,10 @@
 		feedString = defaultFeeds.toString(',');
 	}
 
-	//if(applicationName != '') {
-	//	$('h1').html(applicationName).css('color', 'white');
-	//	document.title = applicationName + ' - Powered by Xively';
-	//}
+	if(applicationName != '') {
+		$('h1').html(applicationName).css('color', 'white');
+		document.title = applicationName + '';
+	}
 
 	if(dataColor == '') {
 		dataColor = '0A1922';
@@ -452,5 +452,6 @@
 // END Initialization
 
 })( jQuery );
+ .map
  .map
  .map
