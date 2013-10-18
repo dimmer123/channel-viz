@@ -14,7 +14,7 @@
 
 	var defaultKey		= '1Eo4wr27TFnuI4djNMa2xdFNOU2JFRGmKoB69gStD3fyg452', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [961081122], // Comma separated array of Xively Feed ID numbers
-		applicationName	= 'Pogoda', // Replaces Xively logo in the header
+		applicationName	= 'Погода', // Replaces Xively logo in the header
 		dataDuration	= '1day', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 60, // Default interval for data to be displayed (in seconds)
 		dataColor		= 'F2A90C', // CSS HEX value of color to represent data (omit leading #)
@@ -452,3 +452,4 @@
 // END Initialization
 
 })( jQuery );
+ .map
