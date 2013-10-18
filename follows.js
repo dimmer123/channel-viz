@@ -452,4 +452,3 @@
 // END Initialization
 
 })( jQuery );
- .map
