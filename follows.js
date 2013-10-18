@@ -391,7 +391,7 @@
 
 	if(applicationName != '') {
 		$('h1').html(applicationName).css('color', 'white');
-		document.title = applicationName + '-';
+		document.title = applicationName + '';
 	}
 
 	if(dataColor == '') {
@@ -452,3 +452,4 @@
 // END Initialization
 
 })( jQuery );
+ .map
